@@ -1,0 +1,31 @@
+#register {
+  form {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 20px;
+    position: relative;
+    width: 300px;
+
+    .drawnFront {
+      position: absolute;
+      bottom: 0;
+      right: -120px;
+      width: 130px;
+    }
+
+    .drawnBack {
+      position: absolute;
+      bottom: 0;
+      left: -120px;
+      width: 100px;
+    }
+
+    input {
+      margin-bottom: 10px;
+    }
+
+    button {
+      margin-top: 20px;
+    }
+  }
+}
