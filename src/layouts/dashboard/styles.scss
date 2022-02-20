@@ -1,0 +1,18 @@
+#dashboard {
+  display: flex;
+  height: 100vh;
+
+  nav {
+    height: 100%;
+  }
+
+  &__main {
+    padding: 15px;
+    overflow-y: scroll;
+  }
+
+  .active {
+    color: #fff;
+    font-weight: 600;
+  }
+}
