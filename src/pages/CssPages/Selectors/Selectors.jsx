@@ -1,7 +1,7 @@
 import React from 'react'
 
-import SelectorId  from "../../../resources/img/code/selector-id.png"
-import SelectorTag from "../../../resources/img/code/selector-tag.png"
+import SelectorId    from "../../../resources/img/code/selector-id.png"
+import SelectorTag   from "../../../resources/img/code/selector-tag.png"
 import SelectorClass from "../../../resources/img/code/selector-class.png"
 import "./styles.scss";
 
