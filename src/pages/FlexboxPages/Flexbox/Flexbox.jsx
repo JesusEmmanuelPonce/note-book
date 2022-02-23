@@ -7,8 +7,8 @@ const Pseudoclasses = () => {
 
   const [flex, setFlex] = useState({
     display: "flex",
-    justifyContent: "",
-    alignItems: "",
+    justifyContent: "flex-start",
+    alignItems: "flex-start",
     flexDirection: "row",
   });
 
@@ -65,6 +65,27 @@ const Pseudoclasses = () => {
         <p><strong>Justify content</strong></p>
         <button
           type="button"
+          onClick={() => setFlex({...flex, justifyContent: "flex-start"})}
+          className={flex.justifyContent === "flex-start" ? "active" : ""}
+        >
+          flex start
+        </button>
+        <button
+          type="button"
+          onClick={() => setFlex({...flex, justifyContent: "flex-end"})}
+          className={flex.justifyContent === "flex-end" ? "active" : ""}
+        >
+          flex end
+        </button>
+        <button
+          type="button"
+          onClick={() => setFlex({...flex,  justifyContent: "center"})}
+          className={flex.justifyContent === "center" ? "active" : ""}
+        >
+          center
+        </button>
+        <button
+          type="button"
           onClick={() => setFlex({...flex,  justifyContent: "space-between"})}
           className={flex.justifyContent === "space-between" ? "active" : ""}
         >
@@ -83,13 +104,6 @@ const Pseudoclasses = () => {
           className={flex.justifyContent === "space-evenly" ? "active" : ""}
         >
           space evenly
-        </button>
-        <button
-          type="button"
-          onClick={() => setFlex({...flex,  justifyContent: "center"})}
-          className={flex.justifyContent === "center" ? "active" : ""}
-        >
-          center
         </button>
       </div>
 
