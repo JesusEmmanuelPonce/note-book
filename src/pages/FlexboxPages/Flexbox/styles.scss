@@ -1,0 +1,51 @@
+.flexbox {
+  img {
+    width: 450px;
+  }
+
+  &__wrapBtn {
+    p {
+      margin-top: 15px;
+    }
+
+    button {
+      color: #000;
+      background: rgb(225, 225, 225);
+      border: none;
+      border-radius: 4px;
+      font-family: 'Poppins';
+      font-weight: 500;
+      padding: 6px;
+      margin-right: 5px;
+
+      &.active {
+        background: rgb(56, 126, 26);
+      }
+    }
+  }
+
+  &__example {
+    background: rgb(230, 230, 230);
+    border: 4px solid rgb(93, 93, 93);
+    height: 450px;
+    margin-top: 30px;
+    width: 450px;
+    flex-wrap: wrap;
+
+    &-box1 {
+      background-color: rgb(201, 18, 18);
+      height: 80px;
+      width: 80px;
+    }
+    &-box2 {
+      background-color: rgb(201, 149, 18);
+      height: 80px;
+      width: 80px;
+    }
+    &-box3 {
+      background-color: rgb(18, 94, 201);
+      height: 80px;
+      width: 80px;
+    }
+  }
+}

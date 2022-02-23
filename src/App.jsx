@@ -8,6 +8,7 @@ import Tags from './pages/htmlpages/Tags';
 import Semantics from './pages/htmlpages/Semantics';
 import Pseudoclasses from './pages/CssPages/Pseudoclasses';
 import Selectors from './pages/CssPages/Selectors';
+import Flexbox from './pages/FlexboxPages/Flexbox';
 
 const App = () => {
 
@@ -27,6 +28,7 @@ const App = () => {
             <Route path="selectors" element={<Selectors />} />
             <Route path="pseudoclasses" element={<Pseudoclasses />} />
           </Route>
+          <Route path="flexbox" element={<Flexbox />}/>
         </Route>
       </Routes>
     </BrowserRouter>

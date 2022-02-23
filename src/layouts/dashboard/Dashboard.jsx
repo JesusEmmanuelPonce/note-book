@@ -12,35 +12,39 @@ const Dashboard = () => {
           <MenuItem>Dashboard</MenuItem>
           <SubMenu title="HTML">
             <MenuItem>
-            <NavLink to="/dashboard/html/tags" activeClassName="active">
+            <NavLink to="/dashboard/html/tags" activeclassname="active">
               Tags
             </NavLink>
             </MenuItem>
             <MenuItem>
-            <NavLink to="/dashboard/html/semantics"  activeClassName="active">
+            <NavLink to="/dashboard/html/semantics"  activeclassname="active">
               Semantica
             </NavLink>
             </MenuItem>
           </SubMenu>
           <SubMenu title="CSS">
             <MenuItem>
-              <NavLink to="/dashboard/css/selectors" activeClassName="active">
+              <NavLink to="/dashboard/css/selectors" activeclassname="active">
                 Selectores
               </NavLink>
             </MenuItem>
             <MenuItem>
-              <NavLink to="/dashboard/css/pseudoclasses" activeClassName="active">
+              <NavLink to="/dashboard/css/pseudoclasses" activeclassname="active">
                 Pseudoclases
               </NavLink>
             </MenuItem>
             <MenuItem>
-              {/* <NavLink to="/dashboard/css" activeClassName="active">
+              {/* <NavLink to="/dashboard/css" activeclassname="active">
                 Preprocesadores
               </NavLink> */}
             </MenuItem>
           </SubMenu>
           <SubMenu title="Flexbox">
-            <MenuItem>Que es flexbox</MenuItem>
+            <MenuItem>
+              <NavLink to="/dashboard/flexbox" activeclassname="active">
+                  Que es Flexbox
+                </NavLink>
+            </MenuItem>
             <MenuItem>Como funciona</MenuItem>
           </SubMenu>
           <SubMenu title="Javascript">
